@@ -1,0 +1,30 @@
+{
+    "version": "2024.10.29",
+    "description": "Create keyboard or mouse shortcuts",
+    "homepage": "https://github.com/plastovicka/HotkeyP",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/project/hotkeyp/hotkeyp_64bit.zip",
+            "hash": "21d0f2a07fe79901e93775095ef2b782e5811b5eaba8114e2bdbcaf83705c9ce",
+            "bin": [
+                "hook64.exe",
+                "hotkeyp.exe"
+            ]
+        },
+        "32bit": {
+            "url": "https://downloads.sourceforge.net/project/hotkeyp/hotkeyp.zip",
+            "hash": "6dd4817f3d9b2efdac21f35bf0c6ba53d93a20a33232affc749f4dd12c9d886a",
+            "bin": [
+                "hook64.exe",
+                "hotkeyp.exe"
+            ]
+        }
+    },
+    "shortcuts": [
+        [
+            "hotkeyp.exe",
+            "HotkeyP"
+        ]
+    ]
+}
